@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.329 sec <<< FAILURE!
+add(com.kabaso.cput.tp.CalculatorTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Add 2+3 expected:<5> but was:<6>
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.failNotEquals(Assert.java:287)
+	at junit.framework.Assert.assertEquals(Assert.java:67)
+	at junit.framework.Assert.assertEquals(Assert.java:199)
+	at com.kabaso.cput.tp.CalculatorTest.add(CalculatorTest.java:33)
+

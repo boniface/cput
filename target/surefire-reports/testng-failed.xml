@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.kabaso.cput.tp.CalculatorTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.kabaso.cput.tp.CalculatorTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownClass"/>
+          <include name="setUpMethod"/>
+          <include name="add"/>
+        </methods>
+      </class> <!-- com.kabaso.cput.tp.CalculatorTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.kabaso.cput.tp.CalculatorTest] -->
